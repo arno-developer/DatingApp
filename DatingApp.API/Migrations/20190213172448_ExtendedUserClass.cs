@@ -68,7 +68,7 @@ namespace DatingApp.API.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Url = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
-                    DataAdded = table.Column<DateTime>(nullable: false),
+                    DateAdded = table.Column<DateTime>(nullable: false),
                     IsMain = table.Column<bool>(nullable: false),
                     UserId = table.Column<int>(nullable: false)
                 },
